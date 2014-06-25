@@ -17,7 +17,7 @@ A configuration object that is passed through to:
 - `oauth2-implicit` options, refer to https://github.com/jasonkuhrt/oauth2-implicit#options--
 - `cloud-client-api-http` defaults, refer to https://github.com/littlebits/cloud-client-api-http#set
 
-##### `Callback :: (err, api_http ->)`
+##### `Callback :: err, api_http ->`
 A callback that is executed once `oauth2-implicit` has completed. Helpfully, it wires up the `api_http` with the received `credentials`.
 
 - `err`  
